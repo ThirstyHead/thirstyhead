@@ -1,7 +1,6 @@
-const {init, provision} = require('./index.js');
+const {provision} = require('./private/server');
 
 const start = async () => {
-//  await init();
   await provision();
 };
 
