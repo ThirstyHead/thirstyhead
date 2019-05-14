@@ -1,0 +1,31 @@
+#nameplate{
+  grid-area: nameplate;
+}
+
+main{
+  grid-area: main;
+}
+
+#sidebar{
+  grid-area: sidebar;
+}
+
+body{
+  display: grid;
+  grid-template-areas:
+    "nameplate"
+    "main"
+    "sidebar";
+}
+
+@media(min-width: 800px){
+  body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "nameplate nameplate nameplate"
+      "main      main      sidebar";
+  }
+}
+
+
