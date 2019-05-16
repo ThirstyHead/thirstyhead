@@ -1,9 +1,28 @@
+/**************************
+  Box-sizing
+  https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+***************************/
+html {
+  box-sizing: border-box;
+  background-color: var(--theme-background-color);
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/**************************
+  Grid layout
+***************************/
 #nameplate{
   grid-area: nameplate;
 }
 
 main{
   grid-area: main;
+  padding: 1em;
 }
 
 #sidebar{

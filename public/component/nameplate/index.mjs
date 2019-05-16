@@ -30,9 +30,9 @@ class ThNameplate extends HTMLElement{
     let styleBlock = document.createElement('style');
     styleBlock.innerHTML = `
       header{
-        background-color: black;
-        color: white;
-        font-family: "Lucida Serif", serif;
+        background-color: var(--theme-foreground-color); 
+        color: var(--theme-background-color);
+        font-family: var(--theme-font-family-heading); 
         padding: 1em;
       }
 

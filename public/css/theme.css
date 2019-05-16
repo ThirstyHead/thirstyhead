@@ -1,0 +1,12 @@
+/**************************
+  Theme
+***************************/
+:root{
+  --theme-background-color: white;
+  --theme-foreground-color: black;
+  --theme-highlight-color: yellow;
+  --theme-link-hover-color: red;
+  --theme-font-size: 1em;
+  --theme-font-family-heading: "Lucida Serif", serif;
+  --theme-font-family-body: "Lucida Sans", sans-serif;
+}
