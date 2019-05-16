@@ -23,6 +23,9 @@ html {
 main{
   grid-area: main;
   padding: 1em;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
 }
 
 #sidebar{
@@ -47,4 +50,7 @@ body{
   }
 }
 
-
+/* have article span two columns */
+.wide{
+  grid-column-end: span 3;
+}

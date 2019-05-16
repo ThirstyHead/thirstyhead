@@ -13,7 +13,6 @@ body{
 
 .contain{
   display: inline-block;
-  height: 2em;
-  max-height: 95%;
+  max-width: 95%;
   object-fit: contain;
 }
