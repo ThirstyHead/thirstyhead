@@ -16,6 +16,10 @@ body{
   font-family: var(--theme-font-family-body);
 }
 
+h1{
+  margin-bottom: 0;
+}
+
 .contain{
   max-width: 100%;
   object-fit: contain;
