@@ -30,3 +30,7 @@ a.sneaky{
   text-decoration: none;
   color: var(--theme-foreground-color);
 }
+
+.tall{
+  height: 20em;
+}

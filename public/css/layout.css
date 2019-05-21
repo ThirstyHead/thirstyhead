@@ -24,8 +24,7 @@ main{
   grid-area: main;
   padding: 1em;
   display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+  grid-template-columns: 100vw;
 }
 
 #sidebar{
@@ -48,9 +47,17 @@ body{
       "nameplate nameplate nameplate"
       "main      main      sidebar";
   }
+
+  main{
+    grid-area: main;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+  }
 }
 
 /* have article span two columns */
 .wide{
-  grid-column-end: span 3;
+  grid-column-end: span 2;
 }
+
