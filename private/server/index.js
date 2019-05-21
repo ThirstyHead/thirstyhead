@@ -5,7 +5,7 @@ const Hapi = require('@hapi/hapi');
 const Inert = require('@hapi/inert');
 
 const server = new Hapi.Server({
-  port: 8000,
+  port: 8888,
   routes:{
     files:{
       relativeTo: Path.join(__dirname, '..', '..', 'public')
