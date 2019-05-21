@@ -1,9 +1,9 @@
 /**************************
   Elements
 ***************************/
-article a{
-  text-decoration: none;
-  color: var(--theme-foreground-color);
+article{
+  display: flex;
+  flex-direction: column;
 }
 
 body{
@@ -17,7 +17,11 @@ body{
 }
 
 .contain{
-  display: inline-block;
   max-width: 100%;
   object-fit: contain;
+}
+
+.img-wrapper{
+  background-color: var(--theme-foreground-color);
+  height: 45%;
 }
