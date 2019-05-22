@@ -21,16 +21,18 @@ body{
   object-fit: contain;
 }
 
-.img-wrapper{
-  background-color: var(--theme-foreground-color);
-  height: 14em;
-}
-
 a.sneaky{
   text-decoration: none;
   color: var(--theme-foreground-color);
 }
 
-.tall{
-  height: 20em;
+@media(min-width: 800px){
+ .img-wrapper{
+    background-color: var(--theme-foreground-color);
+    height: 14em;
+ }
+
+ .tall{
+    height: 20em;
+  }
 }

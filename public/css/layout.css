@@ -54,10 +54,10 @@ body{
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
   }
-}
-
-/* have article span two columns */
-.wide{
-  grid-column-end: span 2;
+  
+  /* have article span two columns */
+  .wide{
+    grid-column-end: span 2;
+  }
 }
 
