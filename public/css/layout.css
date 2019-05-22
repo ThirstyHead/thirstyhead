@@ -62,11 +62,27 @@ main{
 
 
 
-
-
+/**************************
+  Main (Articles) layout
+***************************/
 article{
   display: flex;
   flex-direction: column;
 }
 
+.contain{
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media(min-width: 800px){
+ .img-wrapper{
+    background-color: var(--theme-foreground-color);
+    height: 14em;
+ }
+
+ .tall{
+    height: 20em;
+  }
+}
 
